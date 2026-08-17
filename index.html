@@ -1,1 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gustavo Edson Nunes | Portfólio</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Importando ícones do FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
 
+    <!-- Navegação -->
+    <nav class="navbar">
+        <div class="logo">
+            Gustavo<span>.dev</span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#projetos">Projetos</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero" id="inicio">
+        <div class="hero-content">
+            <h1>Olá, eu sou <span class="highlight">Gustavo Edson Nunes</span></h1>
+            <p>Desenvolvedor Full-Stack apaixonado por criar experiências web e mobile eficientes, focadas em performance e código limpo.</p>
+            <div class="hero-buttons">
+                <a href="#projetos" class="btn btn-primary">Explorar Projetos</a>
+                <a href="#contato" class="btn btn-outline">Entrar em Contato</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Sobre Mim & Habilidades -->
+    <section class="section" id="sobre">
+        <div class="container grid-2-col">
+            <div class="about-text">
+                <h2 class="section-title">Sobre Mim</h2>
+                <p>Sou estudante do 3º período de Análise e Desenvolvimento de Sistemas no Centro Universitário Una. Estou em busca de oportunidades como Desenvolvedor Júnior ou Estágio para aplicar minhas capacidades em um ambiente prático e colaborativo.</p>
+                <p>Além da área técnica, minha experiência prévia com rotinas administrativas me proporcionou excelente capacidade de organização, gestão de tempo e resolução ágil de problemas.</p>
+            </div>
+
+            <div class="skills" id="habilidades">
+                <h2 class="section-title">Stack Tecnológico</h2>
+                <div class="tags-container">
+                    <span class="tag">JavaScript</span>
+                    <span class="tag">TypeScript</span>
+                    <span class="tag">React</span>
+                    <span class="tag">Next.js</span>
+                    <span class="tag">Node.js</span>
+                    <span class="tag">React Native</span>
+                    <span class="tag">MongoDB</span>
+                    <span class="tag">SQL</span>
+                    <span class="tag">Tailwind CSS</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projetos -->
+    <section class="section bg-gradient" id="projetos">
+        <div class="container">
+            <h2 class="section-title">Projetos em Destaque</h2>
+            <div class="projects-grid">
+                
+                <!-- Projeto 1 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <span>MERCADO</span>
+                    </div>
+                    <div class="project-content">
+                        <h3>Mercado do Mato</h3>
+                        <p>Plataforma de e-commerce full-stack focada em conectar diretamente consumidores a produtores agrícolas, comercializando legumes, frutas e queijos.</p>
+                        <div class="project-tags">
+                            <span>Next.js</span>
+                            <span>Node.js</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Projeto 2 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <span>MOBILE</span>
+                    </div>
+                    <div class="project-content">
+                        <h3>Subscription Manager App</h3>
+                        <p>Aplicativo mobile para o controle eficiente de despesas e gerenciamento de assinaturas recorrentes, com interface intuitiva.</p>
+                        <div class="project-tags">
+                            <span>React Native</span>
+                            <span>Expo Router</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato -->
+    <section class="section contact-section" id="contato">
+        <div class="container contact-container">
+            <h2 class="section-title">Vamos Conversar?</h2>
+            <p>Sempre em busca de projetos desafiadores e novas conexões. Se quiser trocar uma ideia, bater um papo sobre tecnologia ou discutir oportunidades, fique à vontade para entrar em contato.</p>
+            <div class="social-links">
+                <a href="https://github.com/SEU-GITHUB" target="_blank" title="GitHub"><i class="fa-brands fa-github"></i></a>
+                <a href="https://linkedin.com/in/SEU-LINKEDIN" target="_blank" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="mailto:SEU-EMAIL@gmail.com" title="Email"><i class="fa-solid fa-envelope"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; <span id="year"></span> Gustavo Edson Nunes. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
